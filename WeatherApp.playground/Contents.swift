@@ -28,3 +28,5 @@ struct Weather: Codable {
         return URL(string: urlString)!
     }
 }
+
+
