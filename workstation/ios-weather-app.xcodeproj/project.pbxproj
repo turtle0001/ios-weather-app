@@ -11,6 +11,8 @@
 		F298423225E3861500147E59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298423125E3861500147E59 /* ContentView.swift */; };
 		F298423425E3861700147E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F298423325E3861700147E59 /* Assets.xcassets */; };
 		F298423725E3861700147E59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F298423625E3861700147E59 /* Preview Assets.xcassets */; };
+		F298424125E3872000147E59 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424025E3872000147E59 /* APIService.swift */; };
+		F298424625E3876E00147E59 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424525E3876E00147E59 /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		F298423325E3861700147E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F298423625E3861700147E59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F298423825E3861700147E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F298424025E3872000147E59 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F298424525E3876E00147E59 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		F298422E25E3861500147E59 /* ios-weather-app */ = {
 			isa = PBXGroup;
 			children = (
+				F298424425E3875500147E59 /* Models */,
+				F298424325E3873600147E59 /* API Services */,
 				F298422F25E3861500147E59 /* ios_weather_appApp.swift */,
 				F298423125E3861500147E59 /* ContentView.swift */,
 				F298423325E3861700147E59 /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				F298423625E3861700147E59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F298424325E3873600147E59 /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+				F298424025E3872000147E59 /* APIService.swift */,
+			);
+			path = "API Services";
+			sourceTree = "<group>";
+		};
+		F298424425E3875500147E59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F298424525E3876E00147E59 /* Forecast.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F298424625E3876E00147E59 /* Forecast.swift in Sources */,
 				F298423225E3861500147E59 /* ContentView.swift in Sources */,
+				F298424125E3872000147E59 /* APIService.swift in Sources */,
 				F298423025E3861500147E59 /* ios_weather_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
