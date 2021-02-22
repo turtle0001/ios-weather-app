@@ -13,6 +13,7 @@
 		F298423725E3861700147E59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F298423625E3861700147E59 /* Preview Assets.xcassets */; };
 		F298424125E3872000147E59 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424025E3872000147E59 /* APIService.swift */; };
 		F298424625E3876E00147E59 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424525E3876E00147E59 /* Forecast.swift */; };
+		F298424C25E398EA00147E59 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424B25E398EA00147E59 /* ForecastViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F298423825E3861700147E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F298424025E3872000147E59 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		F298424525E3876E00147E59 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		F298424B25E398EA00147E59 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F298422E25E3861500147E59 /* ios-weather-app */ = {
 			isa = PBXGroup;
 			children = (
+				F298424A25E398D200147E59 /* ViewModels */,
 				F298424425E3875500147E59 /* Models */,
 				F298424325E3873600147E59 /* API Services */,
 				F298422F25E3861500147E59 /* ios_weather_appApp.swift */,
@@ -89,6 +92,14 @@
 				F298424525E3876E00147E59 /* Forecast.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F298424A25E398D200147E59 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F298424B25E398EA00147E59 /* ForecastViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				F298423225E3861500147E59 /* ContentView.swift in Sources */,
 				F298424125E3872000147E59 /* APIService.swift in Sources */,
 				F298423025E3861500147E59 /* ios_weather_appApp.swift in Sources */,
+				F298424C25E398EA00147E59 /* ForecastViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
