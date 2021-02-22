@@ -14,6 +14,7 @@
 		F298424125E3872000147E59 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424025E3872000147E59 /* APIService.swift */; };
 		F298424625E3876E00147E59 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424525E3876E00147E59 /* Forecast.swift */; };
 		F298424C25E398EA00147E59 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424B25E398EA00147E59 /* ForecastViewModel.swift */; };
+		F298425025E3EB9900147E59 /* ForecastListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298424F25E3EB9900147E59 /* ForecastListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F298424025E3872000147E59 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		F298424525E3876E00147E59 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		F298424B25E398EA00147E59 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		F298424F25E3EB9900147E59 /* ForecastListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				F298424B25E398EA00147E59 /* ForecastViewModel.swift */,
+				F298424F25E3EB9900147E59 /* ForecastListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				F298424125E3872000147E59 /* APIService.swift in Sources */,
 				F298423025E3861500147E59 /* ios_weather_appApp.swift in Sources */,
 				F298424C25E398EA00147E59 /* ForecastViewModel.swift in Sources */,
+				F298425025E3EB9900147E59 /* ForecastListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
