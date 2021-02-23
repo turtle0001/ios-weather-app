@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F202898925E4DE7D001F9B69 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F202898825E4DE7D001F9B69 /* SDWebImageSwiftUI */; };
 		F298423025E3861500147E59 /* ios_weather_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298422F25E3861500147E59 /* ios_weather_appApp.swift */; };
 		F298423225E3861500147E59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F298423125E3861500147E59 /* ContentView.swift */; };
 		F298423425E3861700147E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F298423325E3861700147E59 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F202898925E4DE7D001F9B69 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +123,9 @@
 			dependencies = (
 			);
 			name = "ios-weather-app";
+			packageProductDependencies = (
+				F202898825E4DE7D001F9B69 /* SDWebImageSwiftUI */,
+			);
 			productName = "ios-weather-app";
 			productReference = F298422C25E3861500147E59 /* ios-weather-app.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +153,9 @@
 				Base,
 			);
 			mainGroup = F298422325E3861500147E59;
+			packageReferences = (
+				F202898725E4DE7D001F9B69 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = F298422D25E3861500147E59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -368,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F202898725E4DE7D001F9B69 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F202898825E4DE7D001F9B69 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F202898725E4DE7D001F9B69 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F298422425E3861500147E59 /* Project object */;
 }
